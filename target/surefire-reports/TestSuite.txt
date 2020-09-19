@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 111.73 sec <<< FAILURE! - in TestSuite
+verifyTitle(com.fullstack.batch3.AppTest)  Time elapsed: 9.132 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Home] but found [Log In ‹ — WordPress]
+	at com.fullstack.batch3.AppTest.verifyTitle(AppTest.java:35)
+
+loginWithCorrectCredentials(com.fullstack.batch3.AppTest)  Time elapsed: 12.077 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'CHANDANPC', ip: '169.254.45.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\chandan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:17366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ff3b3ca6a63a115e141ef6921f58393d
+	at com.fullstack.batch3.AppTest.loginWithCorrectCredentials(AppTest.java:20)
+

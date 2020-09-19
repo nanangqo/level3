@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="111.73" tests="5" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\chandan\Downloads\Level 2 Resources\Level 2 Resources\batch3leveljavaproject\batch3latest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\chandan\Downloads\Level 2 Resources\Level 2 Resources\batch3leveljavaproject\batch3latest"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\chandan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="suiteXmlFile" value="webtests.xml"/>
+    <property name="classworlds.conf" value="C:\Users\chandan\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf209018254306931598.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\PuTTY\;C:\Users\chandan\AppData\Local\Android\Sdk\platform-tools;C:\Users\chandan\AppData\Local\Android\Sdk\tools;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\chandan\scoop\shims;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Users\chandan\AppData\Local\Microsoft\WindowsApps;C:\gradle\gradle-6.0-all\gradle-6.0\bin;C:\Users\chandan\AppData\Roaming\npm;C:\Users\chandan\AppData\Local\Programs\Fiddler;C:\Users\chandan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chandan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0\LocalCache\local-packages\Python37\Scripts;C:\Program Files (x86)\Nmap;C:\Users\chandan\AppData\Local\Android\Sdk\tools;C:\Users\chandan\AppData\Local\Android\Sdk\platform-tools;;C:\Users\chandan\eclipse\java-2018-09\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\chandan"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="chandan"/>
+    <property name="java.class.path" value="C:\Users\chandan\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.9.1.20180912-1600\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install -X -DsuiteXmlFile=webtests.xml -Denvironment=prod -Dbrowser=chrome"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="environment" value="prod"/>
+    <property name="maven.home" value="C:\Users\chandan\Downloads\Level 2 Resources\Level 2 Resources\batch3leveljavaproject\batch3latest\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testJSScript" classname="com.fullstack.batch3.AppTest" time="5.07"/>
+  <testcase name="verifyTitle" classname="com.fullstack.batch3.AppTest" time="9.132">
+    <failure message="expected [Home] but found [Log In ‹ — WordPress]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Home] but found [Log In ‹ — WordPress]
+	at com.fullstack.batch3.AppTest.verifyTitle(AppTest.java:35)
+</failure>
+    <system-out><![CDATA[2020-09-19 15:20:15,528 [TRACE ] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+2020-09-19 15:20:19,522 [INFO  ] BasePage - successfull in opening the url
+2020-09-19 15:20:19,523 [INFO  ] BasePage - Trying to get title of page 
+2020-09-19 15:20:19,524 [INFO  ] BasePage - successfull in opening the url
+]]></system-out>
+  </testcase>
+  <testcase name="testSwitches" classname="com.fullstack.batch3.AppTest" time="11.571"/>
+  <testcase name="testNavigation" classname="com.fullstack.batch3.AppTest" time="40.138"/>
+  <testcase name="loginWithCorrectCredentials" classname="com.fullstack.batch3.AppTest" time="12.077">
+    <failure message="chrome not reachable&#10;  (Session info: chrome=85.0.4183.102)&#10;Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;&#10;System info: host: &apos;CHANDANPC&apos;, ip: &apos;169.254.45.178&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\chandan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:17366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ff3b3ca6a63a115e141ef6921f58393d" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+chrome not reachable
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '4.0.0-alpha-6', revision: '5f43a29cfc'
+System info: host: 'CHANDANPC', ip: '169.254.45.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\chandan\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:17366}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ff3b3ca6a63a115e141ef6921f58393d
+	at com.fullstack.batch3.AppTest.loginWithCorrectCredentials(AppTest.java:20)
+</failure>
+    <system-out><![CDATA[2020-09-19 15:20:50,586 [TRACE ] WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+2020-09-19 15:21:16,990 [INFO  ] BasePage - Trying to open url https://testautomasi.com/wp-admin
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 34066
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 19, 2020 3:20:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1600509060.851][WARNING]: Timed out connecting to Chrome, retrying...
+[1600509068.861][WARNING]: Timed out connecting to Chrome, retrying...
+[1600509080.996][WARNING]: Timed out connecting to Chrome, retrying...
+]]></system-err>
+  </testcase>
+</testsuite>
